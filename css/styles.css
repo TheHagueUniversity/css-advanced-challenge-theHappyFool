@@ -2,7 +2,7 @@
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
-*/
+
 
 
 .horizontalLine {
@@ -17,20 +17,25 @@ width:20px;
 height:800px;
 }
 
+*/
+
 .blue {
 background:blue;
 width:200px;
 height:200px;
+border:10px solid black;
 }
 
 .red {
 background:red;
 width:200px;
 height:200px;
+border:10px solid black;
 }
 
 .yellow {
 background:yellow;
 width:200px;
 height:200px;
+border:10px solid black;
 }
