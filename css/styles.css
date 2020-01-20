@@ -5,10 +5,16 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 */
 
 
-.black {
+.horizontalLine {
 background:black;
-width:200px;
-height:200px;
+width:800px;
+height:20px;
+}
+
+.verticalLine {
+background:black;
+width:20px;
+height:800px;
 }
 
 .blue {
