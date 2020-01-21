@@ -1,54 +1,60 @@
-/*
-COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-
-
-
-
-.horizontalLine {
-background:black;
-width:800px;
-height:20px;
+body
+{
+	margin:100px;
+	max-width: 70%;
+	/*object-fit:cover;*/
+}
+img
+{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+	display:block;
+}
+*
+{
+	box-sizing: border-box;
+}
+li
+{
+	border: 6px solid black;
+}
+ul
+{
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows:200px;
+	grid-auto-flow:dense;
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
-.verticalLine {
-background:black;
-width:20px;
-height:800px;
+
+li:nth-child(1)
+{
+	grid-column:span2;
+	grid-row:span2
 }
-
-*/
-
-.white {
-background:white;
-width:200px;
-height:200px;
-border:5px solid black;
+li:nth-child(2)
+{
+	grid-column:span3;
 }
-
-.blue {
-background:blue;
-width:200px;
-height:200px;
-border:5px solid black;
+li:nth-child(3)
+{
+	grid-column:span2;
 }
-
-.red {
-background:red;
-width:200px;
-height:200px;
-border:5px solid black;
+li:nth-child(5)
+{
+	grid-row:span2;
 }
-
-.yellow {
-background:yellow;
-width:200px;
-height:200px;
-border:5px solid black;
-}
-
-.grid-container{
-display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+.C block-sizes li:nth-child(6)
+{
+	grid-column:span4;
+	grid-row:span4;
 }
